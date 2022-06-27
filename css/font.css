@@ -1,0 +1,26 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Nanum+Gothic&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+
+/* Noto Sans KR 
+@font-face {
+	font-family:'Noto Sans KR';
+	font-style:normal;
+	font-weight:400;
+	src:url(../font/NotoSansKR-Regular.woff2) format('woff2'),
+		url(../font/NotoSansKR-Regular.woff) format('woff'),
+		url(../font/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+	font-family:'Noto Sans KR';
+	font-style:normal;
+	font-weight:500;
+	src:url(../font/NotoSansKR-Medium.woff2) format('woff2'),
+		url(../font/NotoSansKR-Medium.woff) format('woff'),
+		url(../font/NotoSansKR-Medium.otf) format('opentype');
+}
+*/
+
+

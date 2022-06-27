@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="53" viewBox="0 0 143 53">
+  <g id="그룹_1300" data-name="그룹 1300" transform="translate(-346 -276)">
+    <text id="run" transform="translate(346 319)" fill="rgba(255,255,255,0.98)" font-size="40" font-family="SegoeUI-Bold, Segoe UI" letter-spacing="0.03em" font-weight="700"><tspan x="0" y="0">run</tspan></text>
+    <line id="선_1" data-name="선 1" x2="78" transform="translate(409.5 307.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <line id="선_2" data-name="선 2" x2="34" transform="translate(426.5 318.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <line id="선_3" data-name="선 3" x2="20" transform="translate(455.5 313.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>
