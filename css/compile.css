@@ -5,12 +5,22 @@ html {
   font-size: 1vw;
 }
 
+.pattern {
+  background-image: url("/img/pattern.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .bg-chase {
   background-color: #352955;
   opacity: 98%;
 }
 
-.text-orange, .nav-link:hover, .nav-pills .nav-link.active,
+.bg-chase2 {
+  background: #3B3962;
+}
+
+.text-orange, .nav-link:hover, .nav-link:focus, .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #ff7838;
 }
@@ -66,6 +76,11 @@ html {
     padding-right: 21vw !important;
   }
 
+  .px-20vw {
+    padding-left: 20vw !important;
+    padding-right: 20vw !important;
+  }
+
   .mx-21vw {
     margin: 0 21vw !important;
   }
@@ -107,7 +122,7 @@ html {
   }
 
   .run_img {
-    width: 8vw;
+    width: 26vw;
   }
 }
 .wp_btn {
@@ -146,7 +161,7 @@ html {
 .model_img {
   width: 60%;
   top: -9vw;
-  left: 29vw;
+  left: 32vw;
 }
 
 .border-orange {
@@ -306,6 +321,10 @@ html {
 }
 
 @media (max-width: 768px) {
+  li {
+    line-height: 6vw;
+  }
+
   .cirle_base {
     display: none;
   }
@@ -346,4 +365,27 @@ html {
 .text-roadmap {
   font-size: 1.3vw;
   font-weight: 600;
+}
+
+.rotate {
+  -webkit-animation: rotate ease-in 3s infinite !important;
+          animation: rotate ease-in 3s infinite !important;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=compile.css.map */

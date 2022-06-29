@@ -1,3 +1,57 @@
+window.setTimeout(function() {
+  $(".rotatecircle").addClass("rotate") //요소에 요소를 추가함
+
+}, 3000); //동하기전 1000ms의 딜레이를 추가한다
+
+///////////////////////////////////////////////////
+//섹션 이동
+///////////////////////////////////////////////////
+
+$('.sec_btn1').click(function () {
+  gsap.to(window, {
+    duration: 0.3,
+    scrollTo: {
+      y: ".section1",
+      offsetY: 0
+    }
+  });
+});
+$('.sec_btn2').click(function () {
+  gsap.to(window, {
+    duration: 0.3,
+    scrollTo: {
+      y: ".section2",
+      offsetY: 0
+    }
+  });
+});
+$('.sec_btn3').click(function () {
+  gsap.to(window, {
+    duration: 0.3,
+    scrollTo: {
+      y: ".section3",
+      offsetY: 0
+    }
+  });
+});
+$('.sec_btn4').click(function () {
+  gsap.to(window, {
+    duration: 0.3,
+    scrollTo: {
+      y: ".section4",
+      offsetY: 0
+    }
+  });
+});
+$('.sec_btn5').click(function () {
+  gsap.to(window, {
+    duration: 0.3,
+    scrollTo: {
+      y: ".section5",
+      offsetY: 0
+    }
+  });
+});
 ///////////////////////////////////////////////////
 //헤더 스크롤
 ///////////////////////////////////////////////////

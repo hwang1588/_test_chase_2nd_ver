@@ -5,11 +5,20 @@ html {
     font-size: 1vw;
 }
 
-
+.pattern{
+    background: {
+        image: url("/img/pattern.png");
+        repeat: no-repeat;
+        position: center;
+    }
+}
 
 .bg-chase {
     background-color: #352955;
     opacity: 98%
+}
+.bg-chase2{
+background: #3B3962
 }
 
 .text-orange {
@@ -72,7 +81,11 @@ html {
     .px-21vw {
         padding-left: 21vw !important;
         padding-right: 21vw !important;
+    }
 
+    .px-20vw {
+        padding-left: 20vw !important;
+        padding-right: 20vw !important;
     }
 
     .mx-21vw {
@@ -116,7 +129,7 @@ html {
     }
 
     .run_img {
-        width: 8vw;
+        width: 26vw;
     }
 
 }
@@ -152,7 +165,7 @@ html {
 .model_img {
     width: 60%;
     top: -9vw;
-    left: 29vw;
+    left: 32vw;
 }
 
 .border-orange {
@@ -307,12 +320,13 @@ html {
     color: white
 }
 
-.nav-link:hover {
+.nav-link:hover, .nav-link:focus {
     @extend .text-orange;
 }
 
 //화면 넓이가 768px 이하일때 적용되는 스타일
 @media (max-width: 768px) {
+    li{line-height: 6vw;}
     .cirle_base {
         display: none;
     }
@@ -354,4 +368,18 @@ html {
 .text-roadmap {
     font-size: 1.3vw;
     font-weight: 600
+}
+
+.rotate{
+    animation: rotate ease-in 3s infinite !important
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
 }
