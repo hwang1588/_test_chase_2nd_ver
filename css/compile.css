@@ -388,4 +388,35 @@ html {
   100% {
     transform: rotate(360deg);
   }
-}/*# sourceMappingURL=compile.css.map */
+}
+/*gototop btn:s*/
+.c-go-top {
+  /*	background: none repeat scroll 0 0 padding-box #ffffff;*/
+  /*	border: 1px solid #1099dd;*/
+  background: linear-gradient(229deg, rgba(255, 0, 165, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(84deg, rgba(163, 0, 150, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(343deg, rgb(106, 45, 255), rgba(0, 0, 255, 0) 70.71%);
+  bottom: 30px;
+  border-radius: 4px;
+  color: #333333;
+  display: none;
+  font-size: 12px;
+  opacity: 1;
+  padding: 7px 10px;
+  position: fixed;
+  right: 2%;
+  text-decoration: none;
+  z-index: 999;
+  color: #ffffff !important;
+}
+
+.c-go-top:hover,
+.c-go-top:focus,
+.c-go-top:active,
+.c-go-top:visited {
+  color: #fff;
+  outline: 0;
+  text-decoration: none;
+  background-color: #ef00ff;
+  transition: 0.5s;
+}
+
+/*gototop btn:e*//*# sourceMappingURL=compile.css.map */
