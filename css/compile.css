@@ -20,7 +20,8 @@ html {
   background: #3B3962;
 }
 
-.text-orange, .nav-link:hover, .nav-link:focus, .nav-pills .nav-link.active,
+.text-orange, .nav-link:hover,
+.nav-link:focus, .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #ff7838;
 }
@@ -30,6 +31,25 @@ html {
 }
 
 @media (min-width: 768px) {
+  /*gototop btn:s*/
+  .c-go-top {
+    /* background: none repeat scroll 0 0 padding-box #ffffff; */
+    /* border: 1px solid #1099dd; */
+    background: linear-gradient(229deg, rgba(255, 0, 165, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(84deg, rgba(163, 0, 150, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(343deg, rgb(106, 45, 255), rgba(0, 0, 255, 0) 70.71%);
+    bottom: 1vw;
+    border-radius: 0.2vw;
+    color: #333333;
+    display: none;
+    font-size: 0.7vw;
+    opacity: 1;
+    padding: 0.5vw 0.8vw;
+    position: fixed;
+    right: 2%;
+    text-decoration: none;
+    z-index: 999;
+    color: #ffffff !important;
+  }
+
   .circle_bg {
     filter: drop-shadow(830px 10px 296px #000000);
     border-radius: 50%;
@@ -361,6 +381,24 @@ html {
   .circle_base_white {
     margin-top: 13vw;
   }
+
+  .c-go-top {
+    /* background: none repeat scroll 0 0 padding-box #ffffff; */
+    /* border: 1px solid #1099dd; */
+    background: linear-gradient(229deg, rgba(255, 0, 165, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(84deg, rgba(163, 0, 150, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(343deg, rgb(106, 45, 255), rgba(0, 0, 255, 0) 70.71%);
+    bottom: 7vw;
+    border-radius: 0.3vw;
+    color: #333333;
+    display: none;
+    font-size: 1vw;
+    opacity: 1;
+    padding: 1.6vw 2vw;
+    position: fixed;
+    right: 7%;
+    text-decoration: none;
+    z-index: 999;
+    color: #ffffff !important;
+  }
 }
 .text-roadmap {
   font-size: 1.3vw;
@@ -389,25 +427,6 @@ html {
     transform: rotate(360deg);
   }
 }
-/*gototop btn:s*/
-.c-go-top {
-  /* background: none repeat scroll 0 0 padding-box #ffffff; */
-  /* border: 1px solid #1099dd; */
-  background: linear-gradient(229deg, rgba(255, 0, 165, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(84deg, rgba(163, 0, 150, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(343deg, rgb(106, 45, 255), rgba(0, 0, 255, 0) 70.71%);
-  bottom: 1vw;
-  border-radius: 0.2vw;
-  color: #333333;
-  display: none;
-  font-size: 0.7vw;
-  opacity: 1;
-  padding: 0.5vw 0.8vw;
-  position: fixed;
-  right: 2%;
-  text-decoration: none;
-  z-index: 999;
-  color: #ffffff !important;
-}
-
 .c-go-top:hover,
 .c-go-top:focus,
 .c-go-top:active,
@@ -417,6 +436,4 @@ html {
   text-decoration: none;
   background-color: #ef00ff;
   transition: 0.5s;
-}
-
-/*gototop btn:e*//*# sourceMappingURL=compile.css.map */
+}/*# sourceMappingURL=compile.css.map */
