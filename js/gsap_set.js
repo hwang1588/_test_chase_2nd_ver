@@ -150,7 +150,7 @@ transform: "translateY(-8vw)",
     end: "center center", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // end: "+=300", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // scrub: 1, //반복 가능 및 부드러움 여부
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -164,7 +164,7 @@ gsap.to("#nemo4", {
     end: "center center", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // end: "+=300", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // scrub: 1, //반복 가능 및 부드러움 여부
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -178,7 +178,7 @@ gsap.to("#nemo3", {
     end: "center center", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // end: "+=300", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // scrub: 1, //반복 가능 및 부드러움 여부
-    markers: true,
+    // markers: true,
   },
 });
 
@@ -193,7 +193,7 @@ gsap.to("#nemo2", {
     end: "center center", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // end: "+=300", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // scrub: 1, //반복 가능 및 부드러움 여부
-    markers: true,
+    // markers: true,
   },
 });
 gsap.to("#nemo1", {
@@ -206,7 +206,7 @@ gsap.to("#nemo1", {
     end: "center center", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // end: "+=300", //start부터 end까지의 거리까지 목표지점으로 이동시킴
     // scrub: 1, //반복 가능 및 부드러움 여부
-    markers: true,
+    // markers: true,
   },
 });
 
