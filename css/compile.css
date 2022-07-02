@@ -146,17 +146,18 @@ html {
   }
 }
 .wp_btn {
-  background: linear-gradient(212deg, #8b3c00, #7a0091);
-  border: 4px solid rgba(255, 229, 198, 0.5882352941);
+  background: linear-gradient(212deg, #562C2C, #4C1586);
+  border: 4px solid #564688;
   width: 15vw;
   font-size: 1.2vw;
-  margin-top: 2vw;
-  padding: 0.3vw 0;
+  margin-top: 3vw;
+  padding: 0.3vw 0 0.2vw 0;
 }
 
 .wp_btn:hover,
 .wp_btn:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em #ffdbc9;
+  border: 4px solid rgba(245, 111, 33, 0.6);
+  box-shadow: 0 0.5em 0.5em -0.4em #2e0b3b;
   -webkit-animation: dra 1.5s forwards;
           animation: dra 1.5s forwards;
 }
@@ -264,7 +265,7 @@ html {
 }
 
 .border-orange-bottom {
-  border-bottom: 0.2vw solid #EC8534;
+  border-bottom: 0.15vw solid #EC8534;
 }
 
 .pulse-button {
@@ -337,7 +338,7 @@ html {
 }
 
 .nav-link {
-  color: white;
+  color:rgba(255, 120, 56, 0.7);
 }
 
 @media (max-width: 768px) {
@@ -365,8 +366,8 @@ html {
   }
 
   .wp_btn {
-    background: linear-gradient(212deg, #8b3c00, #7a0091);
-    border: 4px solid rgba(255, 229, 198, 0.5882352941);
+    background: linear-gradient(212deg, #562C2C, #4C1586);
+    border: 4px solid #564688;
     width: 15vw;
     font-size: 3.2vw;
     margin-top: 11vw;
