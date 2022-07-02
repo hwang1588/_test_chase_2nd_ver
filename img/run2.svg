@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="413" height="86" viewBox="0 0 413 86">
   <g id="런모양" transform="translate(-377 -246)">
     <g id="구성_요소_8_1_짝대기" data-name="구성 요소 8 – 1 짝대기" transform="translate(711.5 265.5)">
-      <line id="선_1" data-name="선 1" x2="78" fill="none" stroke="#cf5d08" stroke-linecap="round" stroke-width="1"/>
-      <line id="선_2" data-name="선 2" x2="34" transform="translate(17 11)" fill="none" stroke="#cf5d08" stroke-linecap="round" stroke-width="1"/>
-      <line id="선_3" data-name="선 3" x2="20" transform="translate(46 6)" fill="none" stroke="#cf5d08" stroke-linecap="round" stroke-width="1"/>
+      <line id="선_1" data-name="선 1" class="cls-1" x2="78"/>
+      <line id="선_2" data-name="선 2" class="cls-1" x2="34" transform="translate(17 11)"/>
+      <line id="선_3" data-name="선 3" class="cls-1" x2="20" transform="translate(46 6)"/>
     </g>
     <g id="구성_요소_2_1_글자" data-name="구성 요소 2 – 1 글자" transform="translate(377 254)">
-      <text id="Run_Compete_Winning_The_New_Running_Economy" data-name="Run, Compete, WinningThe New Running Economy" transform="translate(0 27)" fill="#d25e06" font-size="32" font-family="SegoeUI-Light, Segoe UI" letter-spacing="0.01em" font-weight="300"><tspan x="0" y="0">Run,</tspan><tspan y="0" xml:space="preserve" fill="rgba(255,255,255,0.98)"> Compete, </tspan><tspan y="0" fill="rgba(210,94,6,0.98)">Winning</tspan><tspan fill="rgba(255,255,255,0.98)"><tspan x="0" y="43">The New </tspan><tspan y="43" fill="#d25e06">Running Economy</tspan></tspan></text>
+      <text id="Run_Compete_Winning_The_New_Running_Economy" data-name="Run, Compete, WinningThe New Running Economy" class="cls-2" transform="translate(0 27)"><tspan x="0" y="0">Run,</tspan><tspan class="cls-3" y="0" xml:space="preserve"> Compete, </tspan><tspan class="cls-4" y="0">Winning</tspan><tspan class="cls-3"><tspan x="0" y="36">The New </tspan><tspan class="cls-5" y="36">Running Economy</tspan></tspan></text>
     </g>
   </g>
 </svg>
