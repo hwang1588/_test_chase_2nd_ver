@@ -13,23 +13,30 @@ html {
     }
 }
 
-.bg-top{
-    background-image: url("/img/topBG1.svg");
-    background-repeat: no-repeat;
-    background-position: -50vw, 5.75vw;
-}
-
 .bg-chase {
     background-color: #352955;
     opacity: 98%
+}
+
+.bg-section3{
+    background-color: #3B3962;  
+}
+
+.bg-top{
+    background-image: url("/img/topBG1.svg");
+    background-repeat: no-repeat;
+    background-position: -30vw, 130vw;
+    z-index: 0;
 }
 
 .bg-chase2 {
     background: #3B3962
 }
 
-.text-orange {
-    color: #ff7838;
+.text-orange, .nav-link:hover,
+.nav-link:focus, .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #ff7838;
 }
 
 .font-ns {
@@ -162,8 +169,6 @@ html {
 
 }
 
-
-
 .wp_btn {
     background: linear-gradient(212deg, #562C2C, #4C1586);
     border: 4px solid #564688;
@@ -179,7 +184,6 @@ html {
     box-shadow: 0 0.5em 0.5em -0.4em #2e0b3b;
     -webkit-animation: dra 1.5s forwards;
             animation: dra 1.5s forwards;
-
 }
 
 @keyframes dra {
@@ -210,10 +214,7 @@ html {
 .second-title {
     font-size: 2vw;
     font-weight: 800;
-}
-
-.lh-2vw {
-    line-height: 2vw;
+    text-align: center;
 }
 
 .swiper {
@@ -273,8 +274,35 @@ html {
     color: #E2C395
 }
 
+.text-paleorange{
+    color: rgba(255, 185, 100, 0.9);
+    line-height: 2;
+    font-size: 1.2vw;
+}
+  
 .text-whiteecho {
-    color: #E8E8E896
+    color: rgba(232, 232, 232, 0.5882352941);
+}
+
+.text-mauve {
+    color: rgba(210, 187, 255, 1);
+}
+
+.text-purple{
+    color: rgba(110, 85, 162, 0.9);
+}
+
+.text-jinbora{
+    color:rgba(110, 85, 162, .9);
+}
+
+.text-transition{
+    width: 26vw;
+    -webkit-transition: rotate(-90deg);
+    -moz-transition: rotate(-90deg);
+    -ms-transition: rotate(-90deg);
+    -o-transition: rotate(-90deg);
+       transform:  rotate(-90deg);
 }
 
 .border-orange-bottom {
@@ -383,7 +411,7 @@ html {
 
     .wp_btn {
         background: linear-gradient(212deg, #562C2C, #4C1586);
-        border: 4px solid #564688;
+        border: 3px solid #564688;
         width: 15vw;
         font-size: 3.2vw;
         margin-top: 11vw;
