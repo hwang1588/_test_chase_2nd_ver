@@ -218,6 +218,8 @@ html {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+  border-radius: 2vw;
+  background-color: #18171A;
 }
 
 .swiper-slide img {
@@ -231,7 +233,7 @@ html {
 .video_bg {
   background-color: #1D0C30;
   border-radius: 4vw 4vw 100% 100%;
-  padding: 3vw;
+  padding: 2.5vw;
   width: 100%;
 }
 
@@ -245,10 +247,19 @@ html {
   height: 10vw;
 }
 
-.swiper-slide {
+.teamon {
   border: 2px solid #F34521;
-  border-radius: 2vw;
-  background-color: #18171A;
+}
+
+.teamon:hover {
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  -ms-transform: scale(1.2); /* IE 9 */
+      transform: scale(1.2); 
+}
+
+ .teamoff{
+  border: 2px solid #4f4f4f5f;
+  opacity: .6;
 }
 
 .bg-wave {

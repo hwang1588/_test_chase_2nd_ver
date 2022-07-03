@@ -256,10 +256,18 @@ html {
     height: 10vw;
 }
 
-.swiper-slide {
+.swiper-slide-on {
     border: 2px solid #F34521;
     border-radius: 2vw;
     background-color: #18171A;
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    -ms-transform: scale(1.5); /* IE 9 */
+     transform: scale(1.1); 
+}
+
+.swiper-slide-off{
+    border: 2px solid #4f4f4f5f;
+    opacity: .6;
 }
 
 .bg-wave {
