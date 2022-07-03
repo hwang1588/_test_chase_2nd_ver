@@ -11,6 +11,12 @@ html {
   background-position: center;
 }
 
+.bg-top{
+  background-image: url("/img/topBG1.svg");
+  background-repeat: no-repeat;
+  background-position: -50vw, 5.75vw;
+}
+
 .bg-chase {
   background-color: #352955;
   opacity: 98%;
@@ -66,9 +72,10 @@ html {
     left: 34vw;
   }
   .circle_base_white {
-    background-image: url("/img/white_circle.svg");
+    background-image: url("/img/topBG1.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -127.75vw, 2.75vw;
+    z-index: 4;
   }
 
   .text-md-center {

@@ -13,6 +13,12 @@ html {
     }
 }
 
+.bg-top{
+    background-image: url("/img/topBG1.svg");
+    background-repeat: no-repeat;
+    background-position: -50vw, 5.75vw;
+}
+
 .bg-chase {
     background-color: #352955;
     opacity: 98%
