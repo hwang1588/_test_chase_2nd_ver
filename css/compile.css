@@ -36,7 +36,7 @@ html {
 .nav-link:focus,
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #ff7838;
+  color: rgba(207, 93, 8, 1);
 }
 
 .font-ns {
@@ -158,6 +158,7 @@ html {
     width: 23vw;
   }
 }
+
 .wp_btn {
   background: linear-gradient(212deg, #562C2C, #4C1586);
   border: 4px solid #564688;
@@ -170,6 +171,7 @@ html {
 .wp_btn:hover,
 .wp_btn:focus {
   border: 4px solid rgba(245, 111, 33, 0.6);
+
   box-shadow: 0 0.5em 0.5em -0.4em #2e0b3b;
   -webkit-animation: dra 1.5s forwards;
   animation: dra 1.5s forwards;
@@ -375,6 +377,7 @@ html {
 
 .nav-link {
   color: rgba(255, 120, 56, 0.7);
+
 }
 
 @media (max-width: 768px) {
@@ -405,10 +408,10 @@ html {
     background: linear-gradient(212deg, #562C2C, #4C1586);
     border: 3px solid #564688;
     width: 15vw;
-    font-size: 3.2vw;
-    margin-top: 11vw;
-    padding: 13.3vw 0;
-  }
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    padding: 0.5vw 0 0.2vw 0;
+}
 
   .section_title {
     font-size: 5.5vw;
