@@ -16,12 +16,25 @@ html {
   opacity: 98%;
 }
 
+.bg-section3 {
+  background-color: #3B3962;
+}
+
+.bg-top {
+  background-image: url("/img/topBG1.svg");
+  background-repeat: no-repeat;
+  background-position: -30vw, 130vw;
+  z-index: 0;
+}
+
 .bg-chase2 {
   background: #3B3962;
 }
 
-.text-orange, .nav-link:hover,
-.nav-link:focus, .nav-pills .nav-link.active,
+.text-orange,
+.nav-link:hover,
+.nav-link:focus,
+.nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: rgba(207, 93, 8, 1);
 }
@@ -147,20 +160,21 @@ html {
 }
 
 .wp_btn {
-  background: linear-gradient(212deg, #562B2D, #4C1586);
-  border: 4px solid #584493;
+  background: linear-gradient(212deg, #562C2C, #4C1586);
+  border: 4px solid #564688;
   width: 15vw;
   font-size: 1.2vw;
   margin-top: 3vw;
-  padding: 0.5vw 0 0.2vw 0;
+  padding: 0.3vw 0 0.2vw 0;
 }
 
 .wp_btn:hover,
 .wp_btn:focus {
-  border: 4px solid #aa6cddbb;
+  border: 4px solid rgba(245, 111, 33, 0.6);
+
   box-shadow: 0 0.5em 0.5em -0.4em #2e0b3b;
   -webkit-animation: dra 1.5s forwards;
-          animation: dra 1.5s forwards;
+  animation: dra 1.5s forwards;
 }
 
 @-webkit-keyframes dra {
@@ -197,10 +211,7 @@ html {
 .second-title {
   font-size: 2vw;
   font-weight: 800;
-}
-
-.lh-2vw {
-  line-height: 2vw;
+  text-align: center;
 }
 
 .swiper {
@@ -247,6 +258,9 @@ html {
   border: 2px solid #F34521;
   border-radius: 2vw;
   background-color: #18171A;
+  /* Safari 3-8 */
+  /* IE 9 */
+  transform: scale(1.1);
 }
 
 .bg-wave {
@@ -261,12 +275,35 @@ html {
   color: #E2C395;
 }
 
+.text-paleorange {
+  color: rgba(255, 185, 100, 0.9);
+  line-height: 2;
+  font-size: 1.2vw;
+}
+
 .text-whiteecho {
   color: rgba(232, 232, 232, 0.5882352941);
 }
 
+.text-mauve {
+  color: rgb(210, 187, 255);
+}
+
+.text-purple {
+  color: rgba(110, 85, 162, 0.9);
+}
+
+.text-jinbora {
+  color: rgba(110, 85, 162, 0.9);
+}
+
+.text-transition {
+  width: 26vw;
+  transform: rotate(-90deg);
+}
+
 .border-orange-bottom {
-  border-bottom: 0.2vw solid #EC8534;
+  border-bottom: 0.15vw solid #EC8534;
 }
 
 .pulse-button {
@@ -339,7 +376,8 @@ html {
 }
 
 .nav-link {
-  color: rgba(207, 93, 8, 0.7);
+  color: rgba(255, 120, 56, 0.7);
+
 }
 
 @media (max-width: 768px) {
@@ -367,8 +405,8 @@ html {
   }
 
   .wp_btn {
-    background: linear-gradient(212deg, #562B2D, #4C1586);
-    border: 4px solid #584493;
+    background: linear-gradient(212deg, #562C2C, #4C1586);
+    border: 3px solid #564688;
     width: 15vw;
     font-size: 1.2vw;
     margin-top: 3vw;

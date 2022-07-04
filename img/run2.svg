@@ -2,7 +2,8 @@
   <g id="런모양" transform="translate(-377 -246)">
     <g id="구성_요소_8_1_짝대기" data-name="구성 요소 8 – 1 짝대기" transform="translate(700.5 265.5)">
       <line id="선_1" data-name="선 1" x2="78" fill="none" stroke="#cf5d08" stroke-linecap="round" stroke-width="1"/>
-      <line id="선_2" data-name="선 2" x2="35" transform="translate(17 11)" fill="none" stroke="#CF5D08" stroke-linecap="round" stroke-width="1"/>
+      <line id="선_2" data-name="선 2" x2="35" transform="translate(17 11)" fill="none" stroke="#cf5d08" stroke-linecap="round" stroke-width="1"/>
+
       <line id="선_3" data-name="선 3" x2="20" transform="translate(46 6)" fill="none" stroke="#cf5d08" stroke-linecap="round" stroke-width="1"/>
     </g>
     <g id="구성_요소_2_1_글자" data-name="구성 요소 2 – 1 글자" transform="translate(377 254)">
