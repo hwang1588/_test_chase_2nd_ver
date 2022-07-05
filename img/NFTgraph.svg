@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1438" height="607" viewBox="0 0 1438 607">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="202" height="47" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="177" height="47" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="89" height="47" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="134" height="47" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_55733" data-name="그룹 55733" transform="translate(-347 -2690)">
+    <g id="표" transform="translate(347 2690)" fill="#0a0a0a" stroke="rgba(255,165,62,0.42)" stroke-linejoin="round" stroke-width="4">
+      <rect width="1438" height="607" rx="22" stroke="none"/>
+      <rect x="2" y="2" width="1434" height="603" rx="20" fill="none"/>
+    </g>
+    <g id="제목" transform="translate(100 -40)" opacity="0.77" style="isolation: isolate">
+      <g id="반복_그리드_2" data-name="반복 그리드 2" transform="translate(467 2788)" clip-path="url(#clip-path)" style="isolation: isolate">
+        <g transform="translate(-539.424 -2711)">
+          <text id="Item_Level" data-name="Item Level" transform="translate(539.424 2711)" fill="#f8622a" font-size="33" font-family="NanumSquareEB, NanumSquare" letter-spacing="0.03em" style="mix-blend-mode: overlay;isolation: isolate"><tspan x="0" y="28">ITEM LEVEL</tspan></text>
+          <g id="이름_칸" data-name="이름 칸" transform="translate(563.424 2807)" fill="#f8622a" stroke="#707070" stroke-width="1">
+            <rect width="173" height="71" stroke="none"/>
+            <rect x="0.5" y="0.5" width="172" height="70" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="반복_그리드_2-2" data-name="반복 그리드 2" transform="translate(752 2788)" clip-path="url(#clip-path-2)" style="isolation: isolate">
+        <g transform="translate(-539.424 -2711)">
+          <text id="Quantity" transform="translate(539.424 2711)" fill="#f8622a" font-size="33" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="28">QUANTITY</tspan></text>
+        </g>
+      </g>
+      <g id="반복_그리드_2-3" data-name="반복 그리드 2" transform="translate(1019 2788)" clip-path="url(#clip-path-3)" style="isolation: isolate">
+        <g transform="translate(-539.424 -2711)">
+          <text id="Type" transform="translate(539.424 2711)" fill="#f8622a" font-size="33" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="28">TYPE</tspan></text>
+        </g>
+      </g>
+      <g id="반복_그리드_2-4" data-name="반복 그리드 2" transform="translate(1277 2788)" clip-path="url(#clip-path-4)" style="isolation: isolate">
+        <g transform="translate(-539.424 -2711)">
+          <text id="Status" transform="translate(539.424 2711)" fill="#f8622a" font-size="33" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="28">STATUS</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect id="표선" width="1176" height="3" transform="translate(478 2817)" fill="rgba(220,77,33,0.41)" opacity="0.82"/>
+    <g id="내용" transform="translate(-33 -93)">
+      <g id="_1" data-name="1" transform="translate(56)">
+        <rect id="사각형_6961" data-name="사각형 6961" width="192" height="53" rx="26.5" transform="translate(547 2933)" fill="rgba(255,255,255,0.35)"/>
+        <rect id="사각형_6961-2" data-name="사각형 6961" width="192" height="52" rx="26" transform="translate(547 3014)" fill="rgba(255,255,255,0.35)"/>
+        <rect id="사각형_6961-3" data-name="사각형 6961" width="192" height="53" rx="26.5" transform="translate(547 3094)" fill="#6450a7"/>
+        <rect id="사각형_6961-4" data-name="사각형 6961" width="192" height="52" rx="26" transform="translate(547 3175)" fill="#c2a85e"/>
+        <rect id="사각형_6961-5" data-name="사각형 6961" width="192" height="52" rx="26" transform="translate(547 3255)" fill="#5e2814"/>
+        <text id="Common" transform="translate(585 2967)" fill="#fff" font-size="24" font-family="NanumSquareEB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">Common</tspan></text>
+        <text id="Rare" transform="translate(611 3047)" fill="#fff" font-size="24" font-family="NanumSquareEB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">Rare</tspan></text>
+        <text id="Epic" transform="translate(613 3128)" fill="#fff" font-size="24" font-family="NanumSquareEB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">Epic</tspan></text>
+        <text id="Legendary" transform="translate(574 3208)" fill="#fff" font-size="24" font-family="NanumSquareEB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">Legendary</tspan></text>
+        <text id="Mythic" transform="translate(598 3288)" fill="#fff" font-size="24" font-family="NanumSquareEB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">Mythic</tspan></text>
+      </g>
+      <g id="_2" data-name="2" transform="translate(340)">
+        <text id="Unlimited" transform="translate(633 2968)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-56.88" y="0">Unlimited</tspan></text>
+        <text id="Unlimited-2" data-name="Unlimited" transform="translate(633 3046)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-56.88" y="0">Unlimited</tspan></text>
+        <text id="Limited_" data-name="Limited
+
+" transform="translate(633 3124)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-44.28" y="0">Limited</tspan><tspan x="0.36" y="22"></tspan><tspan x="0" y="44"></tspan></text>
+        <text id="Less_than_or_equal_to_100_per_item_" data-name="Less than or equal
+to 100 per item
+" transform="translate(633 3202)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-108.792" y="0">Less than or equal</tspan><tspan x="-91.932" y="22">to 100 per item</tspan><tspan x="0" y="44"></tspan></text>
+        <text id="Less_than_or_equal_to_100_per_item_2" data-name="Less than or equal
+to 100 per item
+
+" transform="translate(633 3280)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-108.792" y="0">Less than or equal</tspan><tspan x="-91.932" y="22">to 100 per item</tspan><tspan x="0.36" y="44"></tspan><tspan x="0" y="66"></tspan></text>
+      </g>
+      <g id="_3" data-name="3" transform="translate(560)">
+        <text id="In-App" transform="translate(597 2968)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">In-App</tspan></text>
+        <text id="In-App-2" data-name="In-App" transform="translate(597 3046)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">In-App</tspan></text>
+        <text id="NFT" transform="translate(614 3124)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">NFT</tspan></text>
+        <text id="NFT_" data-name="NFT
+" transform="translate(614 3202)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">NFT</tspan><tspan x="0" y="22"></tspan></text>
+        <text id="NFT_2" data-name="NFT
+" transform="translate(614 3280)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="0" y="0">NFT</tspan><tspan x="0" y="22"></tspan></text>
+      </g>
+      <g id="_4" data-name="4" transform="translate(724)">
+        <text id="None" transform="translate(751 2968)" fill="#dfc9e9" font-size="24" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-30.48" y="0">None</tspan></text>
+        <text id="_0-1_submission_per_day_0-1_max_CHASX_received_per_day" data-name="0-1 submission per day
+0-1 max $CHASX received per day" transform="translate(751 3046)" fill="#dfc9e9" font-size="18" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-104.022" y="0">0-1 submission per day</tspan><tspan x="-152.253" y="22">0-1 max $CHASX received per day</tspan></text>
+        <text id="_0-3_submission_per_day_0-2_max_CHASX_received_per_day" data-name="0-3 submission per day
+0-2 max $CHASX received per day" transform="translate(751 3124)" fill="#dfc9e9" font-size="18" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-104.022" y="0">0-3 submission per day</tspan><tspan x="-152.253" y="22">0-2 max $CHASX received per day</tspan></text>
+        <text id="_1-5_submission_per_day_1-3_max_CHASX_received_per_day" data-name="1-5 submission per day
+1-3 max $CHASX received per day" transform="translate(751 3202)" fill="#dfc9e9" font-size="18" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-104.022" y="0">1-5 submission per day</tspan><tspan x="-152.253" y="22">1-3 max $CHASX received per day</tspan></text>
+        <text id="_4-10_submission_per_day_3-10_max_CHASX_received_per_day" data-name="4-10 submission per day
+3-10 max $CHASX received per day" transform="translate(751 3280)" fill="#dfc9e9" font-size="18" font-family="NanumSquareB, NanumSquare" letter-spacing="0.03em"><tspan x="-109.782" y="0">4-10 submission per day</tspan><tspan x="-158.013" y="22">3-10 max $CHASX received per day</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
