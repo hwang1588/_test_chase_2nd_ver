@@ -17,7 +17,17 @@ html {
 }
 
 .bg-section3 {
-  background-color: #3B3962;
+  background: #3B3962;
+  background-image: url("/img/Pattern2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-section4 {
+  background-image: url("/img/Pattern3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .bg-top {
@@ -25,10 +35,6 @@ html {
   background-repeat: no-repeat;
   background-position: -30vw, 130vw;
   z-index: 0;
-}
-
-.bg-chase2 {
-  background: #3B3962;
 }
 
 .text-orange,
